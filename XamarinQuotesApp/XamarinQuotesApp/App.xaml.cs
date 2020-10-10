@@ -11,8 +11,9 @@ namespace XamarinQuotesApp
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new QuotePage();
-
+            // MainPage = new QuotePage();
+            // MainPage = new StackPage();
+            MainPage = new StackLayOut();
         }
 
         protected override void OnStart()
