@@ -1,6 +1,5 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+
 
 namespace XamarinQuotesApp
 {
@@ -22,7 +21,9 @@ namespace XamarinQuotesApp
             // MainPage = new AbsoluteLayoutExercise1();
             // MainPage = new AbsoluteLayoutExample2();
             // MainPage = new RelativePage();
-            MainPage = new RelativeLayoutExample1();
+            //MainPage = new RelativeLayoutExample1();
+            MainPage = new ImageApp();
+            
         }
 
         protected override void OnStart()
