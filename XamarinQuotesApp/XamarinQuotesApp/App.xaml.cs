@@ -15,15 +15,19 @@ namespace XamarinQuotesApp
             // MainPage = new StackPage();
             // MainPage = new StackLayOut();
             // MainPage = new StackLayOut1();
-            //    MainPage = new GridPage();
+            // MainPage = new GridPage();
             // MainPage = new GridExample1();
             // MainPage = new GridExample2();
-            MainPage = new AbsoluteLayout();
+            // MainPage = new AbsoluteLayout();
+            // MainPage = new AbsoluteLayoutExercise1();
+            // MainPage = new AbsoluteLayoutExample2();
+            // MainPage = new RelativePage();
+            MainPage = new RelativeLayoutExample1();
         }
 
         protected override void OnStart()
         {
-        }
+        }   
 
         protected override void OnSleep()
         {

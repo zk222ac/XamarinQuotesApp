@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinQuotesApp.AbsoluteLayoutSample">
+    <AbsoluteLayout Margin="20">
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutBounds="0, 10, 300, 5" />
+        <BoxView Color="Aquamarine"
+                 AbsoluteLayout.LayoutBounds="0, 20, 300, 5" />
+        <BoxView Color="Black"
+                 AbsoluteLayout.LayoutBounds="10, 0, 5, 100" />
+        <BoxView Color="Yellow"
+                 AbsoluteLayout.LayoutBounds="20, 0, 5, 65" />
+        <Label Text="Stylish Header"
+               FontSize="24"
+               AbsoluteLayout.LayoutBounds="30, 25" />
+    </AbsoluteLayout>
+</ContentPage>
